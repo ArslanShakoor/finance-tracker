@@ -9,11 +9,19 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
 
-#authentication gem
+gem 'jquery-rails'
+
 gem 'thor', '0.19.1'
+
+#authentication gem
 gem 'devise'
+#bootsrap gems
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+
+gem 'stock_quote'
+
+
  
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
