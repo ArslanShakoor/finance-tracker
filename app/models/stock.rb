@@ -1,4 +1,7 @@
 class Stock < ApplicationRecord
+  
+  has_many :user_stocks
+  has_many :stocks, through: :user_stocks
 
 	def self.find_by_sticker(ticker_symbol)
 		where(ticker: ticker_symbol).first
