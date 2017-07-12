@@ -18,7 +18,7 @@ To satisfying the styling needs and to make website mobile friendly twitter-boot
 
 ## Database
 
-Sqlite3 database has been used to store stocks and to  create the relationship  between different users and stocks
+Sqlite3 to store stocks and to  create the relationship  between different users and stocks
 
 ## Deployment
 
